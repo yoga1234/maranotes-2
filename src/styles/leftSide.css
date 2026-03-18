@@ -27,6 +27,9 @@
   width: 90%;
   padding: 15px 10px 15px 10px;
 }
+.project-list .card.active {
+  background-color: rgba(0, 0, 0, 0.15);
+}
 .project-list .card:hover {
   cursor: pointer;
 }

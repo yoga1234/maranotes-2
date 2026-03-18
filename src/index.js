@@ -33,4 +33,6 @@ rightSide.insertAdjacentHTML("beforeend", doneDeleteButton());
 
 // importing behaviour
 import { behaviourNoteButtonContainer } from "./module/leftSide/behaviourNoteButtonContainer.js";
+import { behaviourNoteList } from "./module/leftSide/behaviourNoteList.js";
 behaviourNoteButtonContainer();
+behaviourNoteList();

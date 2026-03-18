@@ -1,7 +1,5 @@
-// getting button dom
-// const noteOpenBtn = document.getElementsByClassName("note-open-btn");
-
 export function behaviourNoteButtonContainer() {
+  // getting button DOM
   const noteOpenBtn = document.getElementsByClassName("note-open-btn")[0];
   const noteDoneBtn = document.getElementsByClassName("note-done-btn")[0];
 
