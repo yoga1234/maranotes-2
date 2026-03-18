@@ -30,3 +30,7 @@ leftSide.insertAdjacentHTML("beforeend", newNote());
 rightSide.insertAdjacentHTML("beforeend", noteSource());
 rightSide.insertAdjacentHTML("beforeend", noteDetails());
 rightSide.insertAdjacentHTML("beforeend", doneDeleteButton());
+
+// importing behaviour
+import { behaviourNoteButtonContainer } from "./module/leftSide/behaviourNoteButtonContainer.js";
+behaviourNoteButtonContainer();
