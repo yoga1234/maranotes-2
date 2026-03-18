@@ -1,0 +1,35 @@
+.mara-logo {
+  font-size: 28px;
+  margin-top: 25px;
+  font-weight: 500;
+}
+.note-open-btn,
+.note-done-btn,
+.new-note-btn {
+  background-color: #ffffff;
+  font-size: 17px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  height: 40px;
+  margin: 10px auto 0px auto;
+  width: 90%;
+}
+.project-list h2 {
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.project-list .card {
+  margin-top: 25px;
+}
+.project-list .card .title {
+  font-size: 20px;
+}
+.project-list .card .desc {
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.75);
+}
+.new-note-btn {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

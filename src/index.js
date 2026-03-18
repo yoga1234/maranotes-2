@@ -1,9 +1,15 @@
 // importing module
+// importing css
+import "./styles/main.css";
+import "./styles/leftSide.css";
+import "./styles/rightSide.css";
+
 // left side
 import { maraLogo } from "./module/leftSide/logo.js";
 import { projectNoteButton } from "./module/leftSide/noteButtonContainer.js";
 import { newNote } from "./module/leftSide/newNote.js";
 import { projectList } from "./module/leftSide/noteList.js";
+
 // right side
 import { noteSource } from "./module/RightSide/noteSource.js";
 import { noteDetails } from "./module/RightSide/noteDetails.js";

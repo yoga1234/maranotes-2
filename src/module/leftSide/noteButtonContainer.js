@@ -1,8 +1,8 @@
 export function projectNoteButton() {
   return `
     <div class=project-note-button>
-      <button classname="note-btn">Note</button>
-      <button classname="note-done-btn">Note Done</button>
+      <button class="note-open-btn">Note Open</button>
+      <button class="note-done-btn">Note Done</button>
     </div>
   `;
 }
