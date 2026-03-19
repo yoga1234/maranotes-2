@@ -1,3 +1,6 @@
+// data related section
+import { activeData, mainData } from "./module/dataBehaviour.js";
+
 import "./styles/container.css";
 // left side
 import {
@@ -31,7 +34,11 @@ const rightSide = document.getElementById("right-side");
 // adding module to the DOM / left side
 const leftSideModule = [maraLogo, projectNoteButton, projectList, newNote];
 leftSideModule.forEach((module) => {
-  leftSide.insertAdjacentHTML("beforeend", module());
+  if (module.name == "projectList") {
+    leftSide.insertAdjacentHTML("beforeend", projectList(mainData));
+  } else {
+    leftSide.insertAdjacentHTML("beforeend", module());
+  }
 });
 
 // adding module to the DOM / Right side
@@ -49,3 +56,7 @@ behaviourNoteButtonContainer();
 behaviourNoteList();
 behaviourNewNote();
 behaviourFormModal();
+
+// data related section
+activeData();
+mainData();
