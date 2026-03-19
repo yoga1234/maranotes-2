@@ -36,6 +36,9 @@ rightSideModule.forEach((module) => {
   rightSide.insertAdjacentHTML("beforeend", module());
 });
 
+// modal section
+import { modalForm } from "./module/modalForm/modalForm.js";
+
 // behaviour
 behaviourNoteButtonContainer();
 behaviourNoteList();

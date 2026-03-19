@@ -1,3 +1,4 @@
 @import "./leftSide.css";
 @import "./main.css";
 @import "./rightSide.css";
+@import "../module/modalForm/modalForm.css";
