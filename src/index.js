@@ -18,8 +18,12 @@ import {
 import {
   behaviourNoteList,
   behaviourNoteButtonContainer,
+  behaviourNewNote,
+  behaviourFormModal,
 } from "./module/behaviourContainer.js";
 
+// getting main container
+const mainContainer = document.getElementById("main-container");
 // getting main container on templatel
 const leftSide = document.getElementById("left-side");
 const rightSide = document.getElementById("right-side");
@@ -38,7 +42,10 @@ rightSideModule.forEach((module) => {
 
 // modal section
 import { modalForm } from "./module/modalForm/modalForm.js";
+mainContainer.insertAdjacentHTML("beforeend", modalForm());
 
 // behaviour
 behaviourNoteButtonContainer();
 behaviourNoteList();
+behaviourNewNote();
+behaviourFormModal();
